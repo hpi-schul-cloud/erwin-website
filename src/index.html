@@ -22,7 +22,16 @@
             <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">News-Blog</a>
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-goal">Ziele</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-solution">Lösung</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-news" href="#">News-Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#anchor-impressum">Impressum</a>
@@ -37,7 +46,7 @@
         <article>
             <h2>Was ist Projekt ErWIn?</h2>
             <div class="ratio ratio-16x9">
-                <video src="videos/erwin_video.mp4" controls>
+                <video src="videos/erwin_video.mp4" controls poster="images/video_thumbnail.png">
                     Dieser Film erklärt was das Projekt ErWIn ist. <br>
                     Leider kann Ihr Browser dieses Video nicht wiedergeben.
                 </video>
@@ -46,11 +55,13 @@
         <article>
             <h2>Unsere Ziele...</h2>
             <p>ErWIn steht für „Erprobung und Weiterentwicklung von Interoperabilität und Portabilität etablierter Lehr- und Lernmanagement-Systeme im Zuge eines nationalen Bildungsraumes“. Ziel des vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Forschungsprojekts ist das Vermindern von bislang bestehenden, erheblichen Lock-in-Effekten bei der Nutzung verschiedener Schul-Clouds und Lernmanagement-Systeme. Insgesamt stehen maximal zehn Millionen Euro zur Verfügung, um die wechselseitige Durchgängigkeit zwischen verschiedenen Systemen weiterzuentwickeln.</p>
-        </article>
+            <img src="images/learn_1280.jpg" class="img-fluid" alt="...">
+          </article>
         <article>
             <h2>Unsere Lösung...</h2>
             <p>Die Kolleg*innen bei Dataport werden im auf fünf Jahre angelegten Forschungsprojekt daran arbeiten, dass Bildungseinrichtungen und Lehrende bei einem Systemwechsel Inhalte und Strukturen einfach übertragen können. Ebenso sollen Lernende ihre Ergebnisse als „Wissensarchiv“ oder „Portfolio“ in das System einer anderen Bildungseinrichtung mitnehmen können. Der Austausch digitaler Unterrichtskonzepte zwischen Lehrkräften sowie in der Lehrerbildung soll über verschiedene Systeme hinweg vereinfacht werden. Im Projekt ErWIn erarbeitet und erprobt Dataport Lösungen für diese Themenbereiche. Dies geschieht ausgehend von und im Rahmen der Weiterentwicklung der Lernumgebung dBildungscloud (vormals: HPI Schul-Cloud) und mit zunächst circa 350 bundesweit verteilten Schulen, die dBildungscloud derzeit bereits nutzen.</p>
-        </article>
+            <img src="images/student_1280.jpg" class="img-fluid" alt="...">
+          </article>
         <article>
             <h2>Neustes vom Projekt...</h2>
         </article>
@@ -58,9 +69,9 @@
     </div>
 
     <footer id="footer">
-      <div class="container" class="bg-light justify-content-center" id="anchor-impressum">
-        <h3>Impressum</h3>
+      <div class="navbar bg-light justify-content-center" id="anchor-impressum">  
         <div class="row">
+          <h4>Impressum</h4>
           <div class="col">
             <p>Dataport ist eine Anstalt des öffentlichen Rechts.<br>Sie wird vertreten durch den Vorstand:</p>
             <p>Dr. Johann Bizer (Vorsitzender)<br> Silke Tessmann-Storch<br> Andreas Reichel<br> Torsten Koß</p>
@@ -73,6 +84,8 @@
                De-Mail: <a href="mailto:poststelle@dataport.de-mail.de" class="Base-teaserIconLink">poststelle[at]dataport.de-mail.de</a></p>
             <p>USt-IdNr. gemäß § 27a Umsatzsteuergesetz: DE813840400&nbsp;</p>
           </div>
+        </div>
+      </div>
     </footer>
 
     <script type="module" src="js/main.js"></script>
