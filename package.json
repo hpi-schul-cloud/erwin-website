@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "sass": "^1.56.0"
+  },
+  "scripts": {
+    "build": "sass scss/custom.scss css/custom_bootstrap.css"
+  }
+}

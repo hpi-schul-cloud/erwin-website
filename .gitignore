@@ -1,0 +1,9 @@
+# Editor Configs
+.idea
+.vscode/*
+
+# Dependency
+node_modules/
+
+# Mac/OSX
+.DS_Store
