@@ -1,23 +1,13 @@
 // Include any default variable overrides here (though functions won't be available)
 
-/* $container-max-widths: (
-  sm: 900px,
-); */
-
-/* $grid-gutter-width: 0; */
-
-/* $h1-font-size: 4rem; */
-/* $headings-color: #9E292B; */
-
-/* Dataport-grey*/
+// Dataport-grey
 $light: #EEEFF1;
 
 $nav-link-font-size: 1.2em;
 
+
 // Include all of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
-
 
 
 // Then add additional custom code here

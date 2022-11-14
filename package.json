@@ -5,10 +5,13 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "nodemon": "^2.0.20",
-    "sass": "^1.56.0"
+    "sass": "^1.56.0",
+    "ncp": "^2.0.0"
   },
   "scripts": {
-    "build": "sass src/scss/custom.scss src/css/compiled_css/compiled_bootstrap.css",
-    "watch": "nodemon -e html,scss -x \"npm run build\""
+    "sass": "sass src/scss/custom.scss src/css/compiled_css/compiled_bootstrap.css",
+    "copy": "ncp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js src/js/bootstrap.bundle.min.js",
+    "build": "npm run sass && npm run copy",
+    "watch": "nodemon -e html,scss -x \"npm run sass\""
   }
 }
