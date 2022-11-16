@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/compiled_css/compiled_bootstrap.css" rel="stylesheet" />
+    <title>ErWIn Projekt</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light sticky-top py-1">
+        <div class="container-fluid mx-3">
+          <a class="navbar-brand" href="#">
+            <img src="images/dataport_logo.svg" alt="Dataport Firmenlogo" width="150" height=auto class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-goal">Ziele</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-solution">Lösung</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#anchor-impressum">Impressum</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main>
+        <article class="container-fluid mx-0 mt-5 text-center">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-10">
+              <h1>Was ist Projekt ErWIn?</h1>
+              <img src="images/Gefördert_vom_BMBF.svg" class="img-fluid" alt="Logo des Bundesministerium für Bildung und Forschung" width="190" height=auto>
+              <div class="ratio ratio-16x9">
+                  <video src="videos/erwin_video.mp4" controls poster="images/video_thumbnail.png">
+                      Dieser Film erklärt was das Projekt ErWIn ist. <br>
+                      Leider kann Ihr Browser dieses Video nicht wiedergeben.
+                  </video>
+              </div>
+            </div>
+          </div>
+        </article>       
+        <article class="container-fluid mx-0">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-10 my-5">
+              <h2 id="anchor-goal">Unsere Ziele...</h2>
+              <p class="text">ErWIn steht für „Erprobung und Weiterentwicklung von Interoperabilität und Portabilität etablierter Lehr- und Lernmanagement-Systeme im Zuge eines nationalen Bildungsraumes“. Ziel des vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Forschungsprojekts ist das Vermindern von bislang bestehenden, erheblichen Lock-in-Effekten bei der Nutzung verschiedener Schul-Clouds und Lernmanagement-Systeme. Insgesamt stehen maximal zehn Millionen Euro zur Verfügung, um die wechselseitige Durchgängigkeit zwischen verschiedenen Systemen weiterzuentwickeln.</p>                   
+                <img src="images/learn_1280_small.jpg" class="img-fluid mt-3 mb-5" alt="Das Wort learn in bunten Plastikbuchstaben auf einen Holztisch gelegt">            
+              <h2 id="anchor-solution">Unsere Lösung...</h2>
+              <p class="text">Die Kolleg*innen bei Dataport werden im auf fünf Jahre angelegten Forschungsprojekt daran arbeiten, dass Bildungseinrichtungen und Lehrende bei einem Systemwechsel Inhalte und Strukturen einfach übertragen können. Ebenso sollen Lernende ihre Ergebnisse als „Wissensarchiv“ oder „Portfolio“ in das System einer anderen Bildungseinrichtung mitnehmen können. Der Austausch digitaler Unterrichtskonzepte zwischen Lehrkräften sowie in der Lehrerbildung soll über verschiedene Systeme hinweg vereinfacht werden. Im Projekt ErWIn erarbeitet und erprobt Dataport Lösungen für diese Themenbereiche. Dies geschieht ausgehend von und im Rahmen der Weiterentwicklung der Lernumgebung dBildungscloud (vormals: HPI Schul-Cloud) und mit zunächst circa 350 bundesweit verteilten Schulen, die dBildungscloud derzeit bereits nutzen.</p>             
+                <img src="images/student_1280_small.jpg" class="img-fluid mt-3" alt="Eine Person arbeitet am Laptop, neben dem sich ein Notizbuch auf dem Schreibtisch befindet.">
+            </div> 
+          </div>
+        </article>
+    </main>
+
+    <footer class="navbar bg-light justify-content-center" id="anchor-impressum">
+      <div class="row justify-content-center mx-0">
+        <div class="col ms-3 my-3">
+          <div class="row">
+            <h4 class="col">Impressum</h4>
+          </div>       
+          <div class="row row-cols-1 row-cols-sm-2">
+            <div class="col mb-1"> 
+              <p>Dataport ist eine Anstalt des öffentlichen Rechts.<br>Sie wird vertreten durch den Vorstand:</p>
+              <p>Dr. Johann Bizer (Vorsitzender)<br> Silke Tessmann-Storch<br> Andreas Reichel<br> Torsten Koß</p>
+              <a href="https://www.dataport.de/impressum/">Dataport Impressum</a>
+            </div>
+            <div class="col">
+              <p>Altenholzer Straße 10-14<br> 24161 Altenholz</p>
+              <p>Telefon: <a href="tel:+4943132950">0431 3295-0</a><br>
+                 E-Mail: <a href="mailto:poststelle@dataport.de">poststelle[at]dataport.de</a><br>
+                 De-Mail: <a href="mailto:poststelle@dataport.de-mail.de" class="Base-teaserIconLink">poststelle[at]dataport.de-mail.de</a></p>
+              <p>USt-IdNr. gemäß § 27a Umsatzsteuergesetz: DE813840400&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

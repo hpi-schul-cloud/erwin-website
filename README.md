@@ -1,2 +1,2 @@
 # erwin-website
-Website for the ErWIn research project which is sponsored by the BMBF
+Official website for the ErWIn research project which is sponsored by the Federal Ministry of Education and Research.
